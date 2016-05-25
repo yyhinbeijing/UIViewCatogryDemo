@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+UIViewCategory.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIView *view = [[UIView alloc] init];
+    view.x = 10;
+    view.y = 100;
+    view.centerX = 200;
+    view.centerY = 300;
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

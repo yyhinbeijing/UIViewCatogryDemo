@@ -15,6 +15,7 @@
 		64553F131CF55C9B00FCCB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64553F111CF55C9B00FCCB62 /* LaunchScreen.storyboard */; };
 		64553F1E1CF55C9B00FCCB62 /* UIViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64553F1D1CF55C9B00FCCB62 /* UIViewDemoTests.m */; };
 		64553F291CF55C9B00FCCB62 /* UIViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64553F281CF55C9B00FCCB62 /* UIViewDemoUITests.m */; };
+		64553F381CF55CAE00FCCB62 /* UIView+UIViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64553F371CF55CAE00FCCB62 /* UIView+UIViewCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		64553F241CF55C9B00FCCB62 /* UIViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64553F281CF55C9B00FCCB62 /* UIViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewDemoUITests.m; sourceTree = "<group>"; };
 		64553F2A1CF55C9B00FCCB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64553F361CF55CAE00FCCB62 /* UIView+UIViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewCategory.h"; sourceTree = "<group>"; };
+		64553F371CF55CAE00FCCB62 /* UIView+UIViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		64553F021CF55C9B00FCCB62 /* UIViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64553F361CF55CAE00FCCB62 /* UIView+UIViewCategory.h */,
+				64553F371CF55CAE00FCCB62 /* UIView+UIViewCategory.m */,
 				64553F061CF55C9B00FCCB62 /* AppDelegate.h */,
 				64553F071CF55C9B00FCCB62 /* AppDelegate.m */,
 				64553F091CF55C9B00FCCB62 /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64553F0B1CF55C9B00FCCB62 /* ViewController.m in Sources */,
+				64553F381CF55CAE00FCCB62 /* UIView+UIViewCategory.m in Sources */,
 				64553F081CF55C9B00FCCB62 /* AppDelegate.m in Sources */,
 				64553F051CF55C9B00FCCB62 /* main.m in Sources */,
 			);
